@@ -155,7 +155,7 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
 
-
+mkdir
 
 
 
@@ -165,7 +165,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+the terminal prompt changed
 
 
 
@@ -182,7 +182,7 @@ Copy and paste the output of pwd below.
 ----------
 
 
-
+/Users/Lilia/mtec1003
 
 
 
@@ -196,7 +196,7 @@ Copy and paste the output below.
 ----------
 
 
-
+animals
 
 
 
@@ -210,7 +210,7 @@ Copy and paste the output below.
 ----------
 
 
-
+animals	food
 
 
 
@@ -224,8 +224,8 @@ Copy and paste the output below.
 ----------
 
 
-
-
+animals	foo	food
+the -p flag is recursive meaning reclusively nest one folder inside another
 
 
 ==========
@@ -238,7 +238,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/Lilia/mtec1003/foo/bar/baz/qux
 
 
 
@@ -252,7 +252,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/Lilia/mtec1003/foo/bar
 
 
 
@@ -266,7 +266,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/Lilia/mtec1003/foo/bar/baz/qux
 
 
 
@@ -280,7 +280,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/Users/Lilia/mtec1003
 
 
 
