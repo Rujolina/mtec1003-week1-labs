@@ -68,15 +68,13 @@ Copy and paste the output below.
 ----------
 
 ls: doesnotexist: No such file or directory
-Lilias-Air-200:~ Lilia$ 
 
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
 
-
-
+Up arrow on keyboard
 
 
 
@@ -85,7 +83,7 @@ Lilias-Air-200:~ Lilia$
 ----------
 
 
-
+-l and -a
 
 
 
@@ -93,7 +91,7 @@ Lilias-Air-200:~ Lilia$
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 
 
@@ -102,10 +100,8 @@ Lilias-Air-200:~ Lilia$
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
-
-
-
+doesnotexist
+documents
 
 ==========
 9.  Type:
@@ -116,7 +112,7 @@ Copy and paste the output below.
 ----------
 
 
-
+-bash: foo: command not found
 
 
 
@@ -129,7 +125,7 @@ Copy and paste the output below.
 ----------
 
 
-
+-bash: foo: command not found
 
 
 
@@ -141,9 +137,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
-
-
+flag = -a
+command = ls
+argument = Desktop
+prompt = $
 
 Lab 1 / Part 2 - Navigating the File System
 ==========
