@@ -15,11 +15,24 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
-
-
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+Samsung
+Spitfire
+Untitled-1.png
+derby.log
+get-pip.py
+ltorres6713@baysidehighschool.com Creative Cloud Files
+Lilias-Air-200:~ Lilia$ 
 
 ==========
 2.  Type:
