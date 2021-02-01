@@ -42,9 +42,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
-
+total 8320
+drwxr-xr-x   11 Lilia  staff      352 May 19  2020 Applications
 
 
 ==========
@@ -55,8 +54,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
+.					Mastering Project
+..					Native Instruments
 
 
 
@@ -68,9 +67,8 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
-
-
+ls: doesnotexist: No such file or directory
+Lilias-Air-200:~ Lilia$ 
 
 
 ==========
