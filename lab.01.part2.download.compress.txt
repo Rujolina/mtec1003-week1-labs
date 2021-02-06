@@ -189,10 +189,10 @@ Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
 
-Lilias-Air-200:~ Lilia$ curl -o MTEC1003_my_flashcards.zip http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip
+Lilias-Air-200:~ Lilia$ curl -o MTEC1003_my_flashcards2.zip https://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/labs/01/my-flashcards.zip
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  9115  100  9115    0     0   181k      0 --:--:-- --:--:-- --:--:--  181k
+100  2120  100  2120    0     0   7438      0 --:--:-- --:--:-- --:--:--  7438
 
 ==========
 12. Go back up to your home directory.
