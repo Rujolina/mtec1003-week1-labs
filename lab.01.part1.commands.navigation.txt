@@ -164,7 +164,7 @@ mkdir
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
+cd
 the terminal prompt changed
 
 
@@ -295,7 +295,9 @@ Copy and paste the first 3 lines from the output into the space below.
 ----------
 
 
-
+total 0
+drwxr-xr-x  4 Lilia  staff  128 Feb  2 12:50 foo
+drwxr-xr-x  2 Lilia  staff   64 Feb  1 16:55 food
 
 
 
@@ -309,7 +311,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+/Users/Lilia
 
 
 
@@ -323,7 +325,8 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+/Volumes
+Lilias-Air-200:Volumes Lilia$ 
 
 
 
@@ -337,7 +340,9 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+-bash: cd: /unknown_folder: No such file or directory
+Lilias-Air-200:Volumes Lilia$ pwd
+/Volumes
 
 
 
@@ -351,7 +356,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+/Users/Lilia/mtec1003
 
 
 
@@ -364,7 +369,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+Lilias-Air-200
 
 
 
@@ -373,7 +378,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+pwd
 
 
 
@@ -404,7 +409,7 @@ Write the one command you used below:
 ----------
 
 
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 
@@ -415,7 +420,7 @@ Write the command you used to create the directory below:
 ----------
 
 
-
+mkdir aardvark
 
 
 
@@ -426,7 +431,7 @@ What is the modified date of the aardvark directory?
 ----------
 
 
-
+Feb  5 21:00 aardvark
 
 
 
@@ -441,7 +446,7 @@ What command did you use?
 ----------
 
 
-
+mkdir -p foo/bar/baz
 
 
 
@@ -452,7 +457,7 @@ What command did you use?
 ----------
 
 
-
+$ cd foo/bar/baz
 
 
 
@@ -463,7 +468,7 @@ What command did you use?
 ----------
 
 
-
+$ ../..
 
 
 
@@ -472,7 +477,7 @@ What command did you use?
 ----------
 
 
-
+rm
 
 
 
@@ -481,7 +486,7 @@ What command did you use?
 ----------
 
 
-
+ls
 
 
 
@@ -490,7 +495,7 @@ What command did you use?
 ----------
 
 
-
+-a
 
 
 
@@ -499,7 +504,7 @@ What command did you use?
 ----------
 
 
-
+~
 
 
 
@@ -508,7 +513,7 @@ What command did you use?
 ----------
 
 
-
+the overall form of the file or directory name 
 
 
 
@@ -517,10 +522,13 @@ What command did you use?
 ----------
 
 
-
+a cataloging structure on a file system that references other files (e.g. /Users/Lilia/mtec1003)
 
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+
+/Users/Lilia/Downloads
