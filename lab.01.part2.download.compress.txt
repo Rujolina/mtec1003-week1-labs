@@ -15,46 +15,46 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+/
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+~
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
 
-
+/Users/Lilia/Desktop
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
 
-
+$ mkdir stuff
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
-
+cd ../..
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
 
-
+cd -
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
 
-
+ls -a
 
 ==========
 Part 2 - Output, Download and Uncompress
@@ -75,7 +75,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 
 ==========
@@ -86,7 +86,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -96,7 +96,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+> 
 
 ==========
 4. Uh-oh... we're stuck!
@@ -114,7 +114,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -125,7 +125,7 @@ $ echo *
 What happens?
 ----------
 
-
+It displays all my files in my current directory
 
 
 ==========
@@ -134,7 +134,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+clear
 
 ==========
 Downloading files from a web site:  We'll use the following method to download more lab materials!
@@ -150,9 +150,9 @@ Now copy and paste the output below.
 ----------
 
 
-
-
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12939    0 12939    0     0   116k      0 --:--:-- --:--:-- --:--:--  118k
 
 
 ==========
@@ -161,8 +161,8 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
-
-
+Lilias-Air-200:Desktop Lilia$ pwd
+/Users/Lilia/Desktop
 
 
 ==========
@@ -172,7 +172,7 @@ Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd ~
 
 ==========
 11. So... the lab materials are located at this url:
@@ -189,13 +189,10 @@ Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
 
-
-
-
-
-
-
-
+Lilias-Air-200:~ Lilia$ curl -o MTEC1003_my_flashcards.zip http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9115  100  9115    0     0   181k      0 --:--:-- --:--:-- --:--:--  181k
 
 ==========
 12. Go back up to your home directory.
@@ -206,7 +203,29 @@ Copy and paste the output below.
 ----------
 
 
-
+total 8344
+drwxr-xr-x   11 Lilia  staff      352 May 19  2020 Applications
+drwx------@   4 Lilia  staff      128 Feb  3 08:27 Creative Cloud Files
+drwx------@  30 Lilia  staff      960 Feb  5 23:11 Desktop
+drwx------@  29 Lilia  staff      928 Feb  5 20:10 Documents
+drwx------+ 268 Lilia  staff     8576 Feb  5 20:43 Downloads
+drwx------@  23 Lilia  staff      736 Mar  8  2020 Dropbox
+drwx------@  92 Lilia  staff     2944 Feb  2 12:52 Library
+-rw-r--r--    1 Lilia  staff     9115 Feb  5 23:19 MTEC1003_my_flashcards.zip
+drwx------+  10 Lilia  staff      320 Jan 30 23:50 Movies
+drwx------+  19 Lilia  staff      608 Jan 30 23:50 Music
+drwx------+   6 Lilia  staff      192 Oct  9  2019 Pictures
+drwxr-xr-x+   5 Lilia  staff      160 Jul 16  2016 Public
+drwxrwxr-x@   5 Lilia  staff      160 Feb  9  2020 Rujolina101@yahoo.com Creative Cloud Files
+drwxr-xr-x    3 Lilia  staff       96 Aug 26  2019 Samsung
+drwxrwxrwx    4 Lilia  staff      128 Aug 10 23:47 Spitfire
+-rw-r--r--@   1 Lilia  staff  2321593 Dec 14  2016 Untitled-1.png
+-rw-r--r--    1 Lilia  staff      721 Feb  3 08:25 derby.log
+drwxr-xr-x    3 Lilia  staff       96 Feb  5 20:50 foo
+-rw-r--r--    1 Lilia  staff  1929903 Jan 31 01:33 get-pip.py
+drwxrwxr-x@   2 Lilia  staff       64 Jul 17  2018 ltorres6713@baysidehighschool.com Creative Cloud Files
+drwxr-xr-x    7 Lilia  staff      224 Feb  5 21:00 mtec1003
+drwxr-xr-x    2 Lilia  staff       64 Feb  5 23:23 stuff
 
 ==========
 13. Change into the "stuff" directory that you just created.
@@ -220,7 +239,7 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+.		..		hello.txt
 
 ==========
 14. Go up one directory back into your home directory.
@@ -233,8 +252,53 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
+a stuff
+a stuff/hello.txt
 
-
+.
+..
+.CFUserTextEncoding
+.DS_Store
+.MCTranscodingSDK
+.Trash
+.atom
+.babel.7.8.4.production.json
+.bash_history
+.bash_profile
+.bash_sessions
+.cache
+.config
+.cups
+.dropbox
+.gitconfig
+.idlerc
+.local
+.oracle_jre_usage
+.phet
+.vscode
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+MTEC1003_my_flashcards.zip
+Movies
+Music
+Pictures
+Public
+Rujolina101@yahoo.com Creative Cloud Files
+Samsung
+Spitfire
+Untitled-1.png
+derby.log
+foo
+get-pip.py
+ltorres6713@baysidehighschool.com Creative Cloud Files
+mtec1003
+stuff
+stuff.tar
 
 ==========
 15. Go up one directory back into your home directory.
@@ -246,9 +310,9 @@ Copy and paste the output below.
 ----------
 
 
-
-
-
+a stuff
+a stuff/stuff.tar
+a stuff/hello.txt
 
 ==========
 16. Now compress it! Type:
@@ -259,9 +323,50 @@ List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
 
-
-
-
+.
+..
+.CFUserTextEncoding
+.DS_Store
+.MCTranscodingSDK
+.Trash
+.atom
+.babel.7.8.4.production.json
+.bash_history
+.bash_profile
+.bash_sessions
+.cache
+.config
+.cups
+.dropbox
+.gitconfig
+.idlerc
+.local
+.oracle_jre_usage
+.phet
+.vscode
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+MTEC1003_my_flashcards.zip
+Movies
+Music
+Pictures
+Public
+Rujolina101@yahoo.com Creative Cloud Files
+Samsung
+Spitfire
+Untitled-1.png
+derby.log
+foo
+get-pip.py
+ltorres6713@baysidehighschool.com Creative Cloud Files
+mtec1003
+stuff
+stuff.tar.gz
 
 ==========
 17. Now, let's uncompress the same file.
@@ -270,3 +375,53 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+
+Lilias-Air-200:~ Lilia$ tar -xvf stuff.tar.gz
+x stuff/
+x stuff/stuff.tar
+x stuff/hello.txt
+Lilias-Air-200:~ Lilia$ ls -a
+.
+..
+.CFUserTextEncoding
+.DS_Store
+.MCTranscodingSDK
+.Trash
+.atom
+.babel.7.8.4.production.json
+.bash_history
+.bash_profile
+.bash_sessions
+.cache
+.config
+.cups
+.dropbox
+.gitconfig
+.idlerc
+.local
+.oracle_jre_usage
+.phet
+.vscode
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+MTEC1003_my_flashcards.zip
+Movies
+Music
+Pictures
+Public
+Rujolina101@yahoo.com Creative Cloud Files
+Samsung
+Spitfire
+Untitled-1.png
+derby.log
+foo
+get-pip.py
+ltorres6713@baysidehighschool.com Creative Cloud Files
+mtec1003
+stuff
+stuff.tar.gz
